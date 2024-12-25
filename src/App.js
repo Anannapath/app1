@@ -1,15 +1,20 @@
-import logo from './logo.svg';
 import React from 'react';
-import  './style.css';
-import './App.css';
+import { Header,Content,Footer  } from './func-components';
+
+
 
 function App() {
-  return (
+  return(
     <>
-      <h2>DeveloperThai.com</h2>
-      <div className='title'>React & React Native</div>
+
+    <Header/>
+    <Content/>
+    <Footer/>
+
     </>
-  );
+  )
+
+
 }
 
 export default App;
