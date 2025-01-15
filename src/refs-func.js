@@ -7,7 +7,7 @@ export default function RefsFunc(){
     const result = React.useRef()
 
     const calculate = (ev) => {
-        let op = ev.target.innerText
+        let op = ev.target.innerText  
         let n1 = parseInt(num1.current.innerText)
         let n2 = parseInt(num2.current.innerText)
         let r = eval(`${n1} ${op} ${n2}`)
