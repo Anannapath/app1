@@ -1,10 +1,10 @@
 import React from 'react';
-import FormText from './from-text';
+import FormSelectFile from './form-select-file';
 
 
 export default function App() {
 
-  return <FormText/>
+  return <FormSelectFile/>
   
 }
 
